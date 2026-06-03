@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "Countries")
+@Table(name = "countries")
 public class Country implements Cloneable {
 
     @Id

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "Movies")
+@Table(name = "movies")
 public class Movie implements Cloneable {
 
     @Id
@@ -19,7 +19,7 @@ public class Movie implements Cloneable {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "Titles")
+    @Column(name = "titles")
     private String title;
 
     @OneToMany

@@ -17,7 +17,7 @@ public class Actor implements Cloneable {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "Name")
+    @Column(name = "name")
     private String name;
 
     @ManyToOne
