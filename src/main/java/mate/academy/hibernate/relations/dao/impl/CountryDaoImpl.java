@@ -43,7 +43,7 @@ public class CountryDaoImpl extends AbstractDao implements CountryDao {
             Country country = session.find(Country.class, id);
             return Optional.ofNullable(country);
         } catch (Exception e) {
-            throw new DataProcessingException("Can't retrieve item", e);
+            throw new DataProcessingException("Can't retrieve country with id:" + id, e);
         }
     }
 }
